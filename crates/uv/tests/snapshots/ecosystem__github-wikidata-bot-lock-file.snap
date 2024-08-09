@@ -108,6 +108,7 @@ name = "github-wikidata-bot"
 version = "0.4.0"
 source = { editable = "." }
 dependencies = [
+    { name = "cachecontrol" },
     { name = "cachecontrol", extra = ["filecache"] },
     { name = "mwparserfromhell" },
     { name = "pydantic" },
